@@ -15,22 +15,10 @@ func Add(a []int, b []int) []int {
 	return sum
 }
 
-func Max(a int, b int) int{
-	if a > b{
-		return a
-	}else{
-		return b
-	}
-}
-
 func Adder(a, b, prev int) (int, int){
 	sum := a + b + prev
 	return sum % 10, sum / 10
 
 }
 
-func ChangeLength(input []int, len int) []int{
-	output := make([]int, len)
-	copy(output, input)
-	return output
-}
+
