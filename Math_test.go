@@ -63,12 +63,12 @@ func TestMinus4(t *testing.T)  {
 
 func TestAddLong(t *testing.T){
 	var a string = ""
-	len := rand.Int()%200000
+	len := rand.Int()%200
 	for i := 0; i < len; i++{
 		a = a + strconv.Itoa(rand.Int()%10)
 	}
 	var b string = ""
-	len = rand.Int()%200000
+	len = rand.Int()%200
 	for i := 0; i < len; i++{
 		b = b + strconv.Itoa(rand.Int()%10)
 	}
